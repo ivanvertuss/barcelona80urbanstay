@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="es">
+<html data-version="4.0" lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css" rel="stylesheet"/>
+<link href="styles.css?v=4.0" rel="stylesheet"/>
 <link href="https://barcelona80urbanstay.com/" rel="canonical"/><meta content="Barcelona_80 Urban Stay · Guía de huéspedes" property="og:title"/><meta content="Guía digital del apartamento, recomendaciones de Vigo y servicios útiles." property="og:description"/><meta content="website" property="og:type"/><meta content="https://barcelona80urbanstay.com/" property="og:url"/></head>
 <body><noscript>Esta guía funciona mejor con JavaScript activado.</noscript>
 <div aria-label="Bienvenida" class="welcome" id="welcome">
@@ -27,14 +27,14 @@
 </div>
 <header class="topbar">
 <button aria-expanded="false" aria-label="Abrir menú" class="icon-button" id="menuBtn">☰</button>
-<a class="brand" href="#inicio"><img alt="B80" decoding="async" loading="lazy" src="assets/logo-b80-mark.png"/></a>
+<a class="brand" href="#inicio"><img alt="B80" decoding="async" loading="lazy" src="assets/logo-b80-mark.png"/></a><div class="language-switcher"><select aria-label="Idioma" id="languageSelect"><option value="es">🇪🇸 ES</option><option value="en">🇬🇧 EN</option><option value="fr">🇫🇷 FR</option><option value="pt">🇵🇹 PT</option><option value="de">🇩🇪 DE</option><option value="it">🇮🇹 IT</option></select></div>
 <a aria-label="Cómo llegar" class="icon-button" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle+Barcelona+80%2C+36205+Vigo" rel="noopener" target="_blank">⌖</a>
 </header>
 <aside aria-hidden="true" class="drawer" id="drawer">
 <button aria-label="Cerrar menú" class="drawer__close" id="closeMenu">×</button>
 <nav>
 <a href="#inicio">Inicio</a><a href="#wifi">WiFi</a><a href="#apartamento">El apartamento</a><a href="#vigo">Descubre Vigo</a>
-<a href="#restaurantes">Restaurantes</a><a href="#servicios">Servicios cercanos</a><a href="#checkout">Check-out</a><a href="#experiencia">Tu experiencia</a>
+<a href="#restaurantes">Restaurantes</a><a href="#agenda">Fiestas y eventos</a><a href="#servicios">Servicios cercanos</a><a href="#checkout">Check-out</a><a href="#experiencia">Tu experiencia</a>
 </nav>
 </aside>
 <div class="scrim" id="scrim"></div>
@@ -56,7 +56,7 @@
 <a class="quick-card" href="#vigo"><span>⌖</span><strong>Descubre Vigo</strong><small>Lugares imprescindibles</small></a>
 <a class="quick-card" href="#restaurantes"><span>◇</span><strong>Restaurantes</strong><small>Selección local</small></a>
 <a class="quick-card" href="#servicios"><span>＋</span><strong>Servicios</strong><small>Todo lo más cercano</small></a>
-</section>
+<a class="quick-card" href="#agenda"><span>♫</span><strong>Fiestas y eventos</strong><small>Agenda destacada de Vigo</small></a></section>
 <section class="section" id="apartamento">
 <div class="section-heading"><span class="eyebrow">TU ALOJAMIENTO</span><h2>Barcelona_80_Urban_Stay</h2><p>Calle Barcelona 80 · 36205 Vigo. Un alojamiento amplio, moderno y pensado para grupos.</p></div>
 <div class="facts"><div><strong>6</strong><span>habitaciones</span></div><div><strong>3</strong><span>baños</span></div><div><strong>15:00</strong><span>check-in</span></div><div><strong>12:00</strong><span>check-out</span></div></div>
@@ -112,7 +112,18 @@
 <a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Maruja+Limon%2C+Vigo" rel="noopener" target="_blank"><strong>Maruja Limón</strong><span>Alta cocina</span><em>Ruta</em></a>
 </div>
 </section>
-<section class="section section--tint" id="servicios">
+<section class="section events-section" id="agenda">
+<div class="section-heading"><span class="eyebrow">VIGO EN DIRECTO</span><h2>Fiestas, festivales y conciertos</h2><p>Una selección de celebraciones y planes destacados. Consulta siempre la programación oficial antes de desplazarte, porque las fechas y horarios pueden cambiar.</p></div>
+<div class="events-grid">
+<a class="event-card event-reconquista" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">⚔</span><small>MARZO · ANUAL</small><h3>Reconquista de Vigo</h3><p>El Casco Vello revive la historia de la ciudad con mercado, música, gastronomía y ambiente de época.</p><em>Agenda oficial</em></a>
+<a class="event-card event-marisquino" href="https://omarisquino.com/" rel="noopener" target="_blank"><span class="event-icon">★</span><small>AGOSTO · ANUAL</small><h3>O Marisquiño</h3><p>Festival urbano de deporte, música y cultura junto al mar.</p><em>Web oficial</em></a>
+<a class="event-card event-castrelos" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">♫</span><small>VERANO</small><h3>Conciertos de Castrelos</h3><p>Grandes actuaciones al aire libre en el auditorio de Castrelos.</p><em>Consultar programación</em></a>
+<a class="event-card event-bouzas" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">✦</span><small>JULIO · ANUAL</small><h3>Fiestas de Bouzas</h3><p>Tradición marinera, actividades populares y fuegos artificiales frente a la ría.</p><em>Agenda oficial</em></a>
+<a class="event-card event-nadal" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">❄</span><small>NOVIEMBRE–ENERO</small><h3>Navidad de Vigo</h3><p>Iluminación, mercados y actividades en distintos puntos de la ciudad.</p><em>Consultar agenda</em></a>
+<a class="event-card event-agenda" href="https://hoxe.vigo.org/axenda/?lang=cas" rel="noopener" target="_blank"><span class="event-icon">▦</span><small>TODO EL AÑO</small><h3>Agenda oficial de Vigo</h3><p>Exposiciones, teatro, música, actividades familiares y eventos de última hora.</p><em>Ver agenda completa</em></a>
+</div>
+<p class="update-note">Las fechas son orientativas para celebraciones anuales. Confirma siempre la programación oficial.</p>
+</section><section class="section section--tint" id="servicios">
 <div class="section-heading"><span class="eyebrow">CERCA DEL APARTAMENTO</span><h2>Servicios útiles</h2><p>Accesos directos a las opciones más próximas o recomendadas.</p></div>
 <div class="service-grid">
 <a class="service-card service-card--featured" href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Sole+Mio+Brunch%2C+Vigo" rel="noopener" target="_blank"><span>☕</span><div><strong>Sole Mío Brunch</strong><small>Cafetería bonita y cercana</small></div><em>Ver ruta</em></a>
@@ -142,6 +153,6 @@
 <a aria-label="Contactar por WhatsApp" class="whatsapp-float" href="https://wa.me/34695709630" rel="noopener" target="_blank">WA</a>
 <button class="install-button" hidden="" id="installBtn">Instalar guía</button>
 <footer><img alt="B80" decoding="async" loading="lazy" src="assets/logo-b80-mark.png"/><p>Barcelona_80_Urban_Stay · Vigo</p><div><a href="tel:+34695709630">695 709 630</a><a href="https://wa.me/34695709630" rel="noopener" target="_blank">WhatsApp</a></div></footer>
-<script src="app.js"></script>
+<script src="locales.js?v=4.0"></script><script src="app.js?v=4.0"></script>
 <div aria-live="polite" class="toast" id="toast" role="status"></div></body>
 </html>
