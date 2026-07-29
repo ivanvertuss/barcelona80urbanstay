@@ -1,0 +1,9 @@
+URBAN STAY LAB - BARCELONA 80
+
+Plausible ya está activado.
+Dominio: barcelona80urbanstay.com
+Script: https://plausible.io/js/pa-ewZX4F0ECNGkIm-ivNx2g.js
+Versión: 5.2 Plausible Activo
+
+Publica todos los archivos en la raíz del repositorio de GitHub Pages.
+Después abre la web en incógnito y verifica la instalación en Plausible.
