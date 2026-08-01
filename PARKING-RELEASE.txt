@@ -1,1 +1,2 @@
-Incluye Zona gratuita 1 y Zona gratuita 2 en ambas webs.
+Barcelona 80 v6.2
+Dos mapas Urban Stay con perímetros marcados. Google Maps se usa solo para navegación a un punto de cada zona.
