@@ -1,4 +1,4 @@
-Zamora 89 v7.3 SMART PARKING
+Barcelona 80 v5.3 SMART PARKING
 - parking.html integrado
 - zona gratuita marcada por el anfitrión
 - Telpark iOS/Android

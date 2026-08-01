@@ -1,10 +1,10 @@
-/* Urban Stay Lab · Zamora 89 · Plausible activado */
+/* Urban Stay Lab · Barcelona 80 · Plausible activo */
 window.URBAN_STAY_ANALYTICS = {
   enabled: true,
-  property: "Zamora 89",
-  domain: "zamora89urbanstay.com",
-  scriptUrl: "https://plausible.io/js/pa-e7G408lcAI7Mw5vJVW7Ss.js",
-  version: "7.2-lab-active",
+  property: "Barcelona 80",
+  domain: "barcelona80urbanstay.com",
+  scriptUrl: "https://plausible.io/js/pa-ewZX4F0ECNGkIm-ivNx2g.js",
+  version: "5.2-plausible-activo",
   options: {
     hashBasedRouting: false
   }
