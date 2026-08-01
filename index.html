@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html data-version="5.6" lang="es">
+<html data-version="5.7" lang="es">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
@@ -13,8 +13,18 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css?v=5.6" rel="stylesheet"/>
-<link href="https://barcelona80urbanstay.com/" rel="canonical"/><meta content="Barcelona_80 Urban Stay · Guía de huéspedes" property="og:title"/><meta content="Guía digital del apartamento, recomendaciones de Vigo y servicios útiles." property="og:description"/><meta content="website" property="og:type"/><meta content="https://barcelona80urbanstay.com/" property="og:url"/></head>
+<link href="styles.css?v=5.7" rel="stylesheet"/>
+<link href="https://barcelona80urbanstay.com/" rel="canonical"/><meta content="Barcelona_80 Urban Stay · Guía de huéspedes" property="og:title"/><meta content="Guía digital del apartamento, recomendaciones de Vigo y servicios útiles." property="og:description"/><meta content="website" property="og:type"/><meta content="https://barcelona80urbanstay.com/" property="og:url"/><script>
+(function(){
+  var key='urbanstay-b80-5.7-cache-reset';
+  if(!localStorage.getItem(key)){
+    localStorage.setItem(key,'1');
+    if('serviceWorker' in navigator){navigator.serviceWorker.getRegistrations().then(function(rs){return Promise.all(rs.map(function(r){return r.unregister();}));});}
+    if('caches' in window){caches.keys().then(function(keys){return Promise.all(keys.map(function(k){return caches.delete(k);}));});}
+  }
+})();
+</script>
+</head>
 <body><noscript>Esta guía funciona mejor con JavaScript activado.</noscript>
 <div aria-label="Bienvenida" class="welcome" id="welcome">
 <img alt="Salón comedor de Barcelona 80 Urban Stay" src="assets/living.jpeg"/>
@@ -51,6 +61,17 @@
 </div>
 </div>
 <img alt="Cocina y salón del apartamento" src="assets/kitchen-living.jpeg"/>
+</section>
+<section class="parking-highlight section section--compact" id="parking-highlight" aria-label="Aparcamiento cerca del apartamento">
+  <div class="parking-highlight__inner">
+    <div class="parking-highlight__icon">P</div>
+    <div class="parking-highlight__copy">
+      <span class="eyebrow">NUEVO · SMART PARKING</span>
+      <h2>Aparca cerca sin complicaciones</h2>
+      <p>Zonas gratuitas verificadas a menos de 5 minutos, zona ORA con Telpark y Parking Independencia por Camiño do Regueiro.</p>
+    </div>
+    <a class="button button--gold" href="parking.html">Ver mapa de aparcamiento</a>
+  </div>
 </section>
 <section aria-label="Accesos principales" class="quick-grid section section--compact">
 <a class="quick-card" href="#apartamento"><span>⌂</span><strong>El apartamento</strong><small>6 habitaciones · 3 baños</small></a>
