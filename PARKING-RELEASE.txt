@@ -1,0 +1,6 @@
+Zamora 89 v7.3 SMART PARKING
+- parking.html integrado
+- zona gratuita marcada por el anfitrión
+- Telpark iOS/Android
+- Parking Independencia (acceso Camiño do Regueiro)
+- 7 idiomas

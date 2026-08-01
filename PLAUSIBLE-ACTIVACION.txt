@@ -1,9 +1,16 @@
-URBAN STAY LAB - BARCELONA 80
+ZAMORA 89 URBAN STAY · VERSION 7.2 · URBAN STAY LAB
 
-Plausible ya está activado.
-Dominio: barcelona80urbanstay.com
-Script: https://plausible.io/js/pa-ewZX4F0ECNGkIm-ivNx2g.js
-Versión: 5.2 Plausible Activo
+Plausible está ACTIVADO para:
+zamora89urbanstay.com
 
-Publica todos los archivos en la raíz del repositorio de GitHub Pages.
-Después abre la web en incógnito y verifica la instalación en Plausible.
+Script oficial instalado:
+https://plausible.io/js/pa-e7G408lcAI7Mw5vJVW7Ss.js
+
+PUBLICACION EN GITHUB
+1. Sustituye el contenido del repositorio por los archivos de este ZIP.
+2. Confirma el commit.
+3. Espera entre 2 y 5 minutos a GitHub Pages.
+4. Abre https://zamora89urbanstay.com/ en una ventana de incógnito.
+5. En Plausible pulsa “Verifique la instalación nuevamente”.
+
+La versión 7.2 renueva la caché de la PWA para evitar que se mantenga la versión anterior.
