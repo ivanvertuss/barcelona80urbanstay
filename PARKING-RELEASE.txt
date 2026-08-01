@@ -1,4 +1,1 @@
-Barcelona 80 v5.6
-- Aparcamiento visible en portada, menú y servicios.
-- Smart Parking en parking.html.
-- Caché actualizada.
+Incluye Zona gratuita 1 y Zona gratuita 2 en ambas webs.
