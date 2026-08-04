@@ -1,1 +1,9 @@
-{"name":"Barcelona_80 Urban Stay","short_name":"B80 Guide","description":"Guía digital para huéspedes en Vigo","start_url":"./","scope":"./","display":"standalone","background_color":"#ffffff","theme_color":"#082f4f","lang":"es","icons":[{"src":"assets/logo-b80-mark.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+{
+  "name": "Barcelona 80 Urban Stay",
+  "short_name": "B80",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f1ea",
+  "theme_color": "#082f4f",
+  "icons": []
+}

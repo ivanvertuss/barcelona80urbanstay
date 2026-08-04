@@ -1,163 +1,29 @@
-<!DOCTYPE html>
-
-<html data-version="5.6" lang="es">
-<head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport"/>
-<meta content="#082f4f" name="theme-color"/>
-<meta content="Guía digital para huéspedes de Barcelona_80_Urban_Stay, Vigo." name="description"/>
-<link href="manifest.webmanifest" rel="manifest"/>
-<link href="assets/logo-b80-mark.png" rel="icon"/>
-<link href="assets/logo-b80-mark.png" rel="apple-touch-icon"/>
-<title>B80 · Barcelona_80 Urban Stay · Vigo</title>
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="styles.css?v=5.6" rel="stylesheet"/>
-<link href="https://barcelona80urbanstay.com/" rel="canonical"/><meta content="Barcelona_80 Urban Stay · Guía de huéspedes" property="og:title"/><meta content="Guía digital del apartamento, recomendaciones de Vigo y servicios útiles." property="og:description"/><meta content="website" property="og:type"/><meta content="https://barcelona80urbanstay.com/" property="og:url"/></head>
-<body><noscript>Esta guía funciona mejor con JavaScript activado.</noscript>
-<div aria-label="Bienvenida" class="welcome" id="welcome">
-<img alt="Salón comedor de Barcelona 80 Urban Stay" src="assets/living.jpeg"/>
-<div class="welcome__shade"></div>
-<div class="welcome__content">
-<img alt="B80 Barcelona 80 Urban Stay Vigo" class="welcome__logo" src="assets/logo-b80.png"/>
-<p>Bienvenido a tu estancia en Vigo.</p>
-<button class="button button--gold" id="enterBtn">Entrar en la guía</button>
-</div>
-</div>
-<header class="topbar">
-<button aria-expanded="false" aria-label="Abrir menú" class="icon-button" id="menuBtn">☰</button>
-<a class="brand" href="#inicio"><img alt="B80" decoding="async" loading="lazy" src="assets/logo-b80-mark.png"/></a><div class="language-switcher"><select aria-label="Idioma" id="languageSelect"><option value="es">🇪🇸 ES</option><option value="en">🇬🇧 EN</option><option value="fr">🇫🇷 FR</option><option value="pt">🇵🇹 PT</option><option value="de">🇩🇪 DE</option><option value="it">🇮🇹 IT</option></select></div>
-<a aria-label="Cómo llegar" class="icon-button" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle+Barcelona+80%2C+36205+Vigo" rel="noopener" target="_blank">⌖</a>
-</header>
-<aside aria-hidden="true" class="drawer" id="drawer">
-<button aria-label="Cerrar menú" class="drawer__close" id="closeMenu">×</button>
-<nav>
-<a href="#inicio">Inicio</a><a href="#wifi">WiFi</a><a href="#apartamento">El apartamento</a><a href="#vigo">Descubre Vigo</a>
-<a href="#restaurantes">Restaurantes</a><a href="#agenda">Fiestas y eventos</a><a href="parking.html">Aparcamiento</a><a href="#servicios">Servicios cercanos</a><a href="#checkout">Check-out</a><a href="#experiencia">Tu experiencia</a>
-</nav>
-</aside>
-<div class="scrim" id="scrim"></div>
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#06283f"><meta name="description" content="Urban Stay Guide · Vigo"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>Urban Stay Guide</title></head><body>
+<header class="topbar"><button class="btn outline mobile-menu" id="menuBtn">☰</button><a href="#" class="brand" data-route="home"><img class="property-logo" alt="Logo"><span class="property-name"></span></a><nav><a href="#" data-route="home" data-i18n="nav_home"></a><a href="#parking" data-route="parking" data-i18n="nav_parking"></a><a href="#homeinfo" data-route="homeinfo" data-i18n="nav_homeinfo"></a><a href="#discover" data-route="discover" data-i18n="nav_discover"></a><a href="#events" data-route="events" data-i18n="nav_events"></a><a href="#services" data-route="services" data-i18n="nav_services"></a></nav><select id="languageSelect" class="language" aria-label="Idioma"><option value="es">🇪🇸 ES</option><option value="en">🇬🇧 EN</option><option value="fr">🇫🇷 FR</option><option value="de">🇩🇪 DE</option><option value="it">🇮🇹 IT</option><option value="pt">🇵🇹 PT</option><option value="nl">🇳🇱 NL</option></select></header>
+<div class="drawer hidden" id="drawer"><a href="#" data-route="home" data-i18n="nav_home"></a><a href="#parking" data-route="parking" data-i18n="nav_parking"></a><a href="#homeinfo" data-route="homeinfo" data-i18n="nav_homeinfo"></a><a href="#discover" data-route="discover" data-i18n="nav_discover"></a><a href="#events" data-route="events" data-i18n="nav_events"></a><a href="#services" data-route="services" data-i18n="nav_services"></a><a href="#checkout" data-route="checkout" data-i18n="nav_checkout"></a></div>
 <main>
-<section class="hero section" id="inicio">
-<div class="hero__copy">
-<span class="eyebrow">VIGO · GALICIA</span>
-<h1>Todo lo que necesitas para disfrutar tu estancia.</h1>
-<p>Tu apartamento, recomendaciones locales y ayuda práctica, siempre a un toque.</p>
-<div class="hero__actions">
-<a class="button" href="#apartamento">Explorar la guía</a>
-<a class="button button--outline" href="parking.html">Ver aparcamiento</a>
-<a class="button button--outline" href="https://wa.me/34695709630" rel="noopener" target="_blank">WhatsApp</a>
-</div>
-</div>
-<img alt="Cocina y salón del apartamento" src="assets/kitchen-living.jpeg"/>
-</section>
-<section aria-label="Accesos principales" class="quick-grid section section--compact">
-<a class="quick-card" href="#apartamento"><span>⌂</span><strong>El apartamento</strong><small>6 habitaciones · 3 baños</small></a>
-<a class="quick-card" href="#vigo"><span>⌖</span><strong>Descubre Vigo</strong><small>Lugares imprescindibles</small></a>
-<a class="quick-card" href="#restaurantes"><span>◇</span><strong>Restaurantes</strong><small>Selección local</small></a>
-<a class="quick-card quick-card--parking" href="parking.html"><span>Ⓟ</span><strong>Aparcamiento</strong><small>Gratis, ORA y parking cubierto</small></a>
-<a class="quick-card" href="#servicios"><span>＋</span><strong>Servicios</strong><small>Todo lo más cercano</small></a>
-<a class="quick-card" href="#agenda"><span>♫</span><strong>Fiestas y eventos</strong><small>Agenda destacada de Vigo</small></a></section>
-<section class="section" id="apartamento">
-<div class="section-heading"><span class="eyebrow">TU ALOJAMIENTO</span><h2>Barcelona_80_Urban_Stay</h2><p>Calle Barcelona 80 · 36205 Vigo. Un alojamiento amplio, moderno y pensado para grupos.</p></div>
-<div class="facts"><div><strong>6</strong><span>habitaciones</span></div><div><strong>3</strong><span>baños</span></div><div><strong>15:00</strong><span>check-in</span></div><div><strong>12:00</strong><span>check-out</span></div></div>
-<div class="action-row">
-<a class="button" href="https://www.google.com/maps/dir/?api=1&amp;destination=Calle+Barcelona+80%2C+36205+Vigo" rel="noopener" target="_blank">Cómo llegar</a>
-<a class="button button--outline" href="tel:+34695709630">Llamar</a>
-<a class="button button--outline" href="https://wa.me/34695709630" rel="noopener" target="_blank">WhatsApp</a>
-</div>
-<h3 class="subheading">Habitaciones</h3>
-<p class="muted center">5 camas de 140 × 200 cm y 1 cama individual de 90 × 200 cm.</p>
-<div class="gallery gallery--rooms">
-<article class="photo-card"><img alt="Habitación 1" decoding="async" loading="lazy" src="assets/room-green.jpeg"/><div><strong>Habitación 1</strong><span>Cama 140 × 200</span></div></article>
-<article class="photo-card"><img alt="Habitación 2" decoding="async" loading="lazy" src="assets/room-neutral.jpeg"/><div><strong>Habitación 2</strong><span>Cama 140 × 200</span></div></article>
-<article class="photo-card"><img alt="Habitación 3" decoding="async" loading="lazy" src="assets/room-check.jpeg"/><div><strong>Habitación 3</strong><span>Cama 140 × 200</span></div></article>
-<article class="photo-card"><img alt="Habitación 4" decoding="async" loading="lazy" src="assets/room-grey.jpeg"/><div><strong>Habitación 4</strong><span>Cama 140 × 200</span></div></article>
-<article class="photo-card"><img alt="Habitación 5" decoding="async" loading="lazy" src="assets/room-six.jpeg"/><div><strong>Habitación 5</strong><span>Cama 140 × 200</span></div></article>
-<article class="photo-card"><img alt="Habitación 6" decoding="async" loading="lazy" src="assets/room-single.jpeg"/><div><strong>Habitación 6</strong><span>Cama 90 × 200</span></div></article>
-</div>
-<h3 class="subheading">Baños</h3>
-<div class="gallery gallery--baths">
-<article class="photo-card"><img alt="Baño 1" decoding="async" loading="lazy" src="assets/bath-blue.jpeg"/><div><strong>Baño 1</strong><span>Ducha</span></div></article>
-<article class="photo-card"><img alt="Baño 2" decoding="async" loading="lazy" src="assets/bath-green.jpeg"/><div><strong>Baño 2</strong><span>Ducha</span></div></article>
-<article class="photo-card"><img alt="Baño 3" decoding="async" loading="lazy" src="assets/bath-grey.jpeg"/><div><strong>Baño 3</strong><span>Ducha</span></div></article>
-</div>
-<div class="split-feature"><img alt="Cocina equipada" decoding="async" loading="lazy" src="assets/kitchen.jpeg"/><div><span class="eyebrow">COCINA Y SALÓN</span><h3>Todo lo necesario para compartir.</h3><ul class="checklist"><li>Horno y microondas</li><li>Cafetera</li><li>Lavadora</li><li>Frigorífico</li><li>Menaje</li><li>Comedor amplio</li></ul></div></div>
-<div class="info-panels">
-<article class="info-panel wifi-panel" id="wifi"><div class="wifi-panel__copy"><span aria-hidden="true" class="panel-icon">◉</span><span class="eyebrow">CONEXIÓN</span><h3>WiFi del apartamento</h3><dl class="wifi-data"><div><dt>Red</dt><dd id="wifiName">MOVISTAR_PLUS_F4E0</dd></div><div><dt>Contraseña</dt><dd id="wifiPassword">cSJ4VoAbgUp7BLnormjo</dd></div></dl><div class="wifi-actions"><button class="button button--small" id="copyWifi" type="button">Copiar contraseña</button><a class="button button--small button--outline" href="assets/wifi-qr.png" target="_blank">Abrir QR</a></div><p class="wifi-note">También puedes escanear el código QR del marco situado en el apartamento.</p></div><img alt="Código QR para conectarse al WiFi MOVISTAR PLUS F4E0" class="wifi-qr" decoding="async" height="230" loading="lazy" src="assets/wifi-qr.png" width="230"/></article>
-<article class="info-panel"><span class="panel-icon">♡</span><h3>Normas de la casa</h3><p>No fumar · No se admiten mascotas · Respeta el descanso de los vecinos · Cuida el apartamento.</p></article>
-</div>
-</section>
-<section class="section section--tint" id="vigo">
-<div class="section-heading"><span class="eyebrow">NUESTRA CIUDAD</span><h2>Descubre Vigo</h2><p>Mar, gastronomía, barrios con historia y rincones para disfrutar sin prisas.</p></div>
-<div class="destination-grid">
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Casco+Vello%2C+Vigo" rel="noopener" target="_blank"><strong>Casco Vello</strong><span>Paseo histórico y ambiente local</span><em>Ver ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Monte+do+Castro%2C+Vigo" rel="noopener" target="_blank"><strong>Monte do Castro</strong><span>Vistas privilegiadas de la ría</span><em>Ver ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Playa+de+Samil%2C+Vigo" rel="noopener" target="_blank"><strong>Playa de Samil</strong><span>Atlántico, paseo y puestas de sol</span><em>Ver ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Bouzas%2C+Vigo" rel="noopener" target="_blank"><strong>Bouzas</strong><span>Atardecer y esencia marinera</span><em>Ver ruta</em></a>
-<a href="https://www.google.com/maps/search/?api=1&amp;query=Casa+Hermo+Vigo" rel="noopener" target="_blank"><strong>Casa Hermo</strong><span>Productos gallegos</span><em>Abrir mapa</em></a>
-<a href="https://www.google.com/maps/search/?api=1&amp;query=Casa+Samaniego+Vigo" rel="noopener" target="_blank"><strong>Casa Samaniego</strong><span>Vinos y productos gourmet</span><em>Abrir mapa</em></a>
-</div>
-</section>
-<section class="section" id="restaurantes">
-<div class="section-heading"><span class="eyebrow">SELECCIÓN DEL ANFITRIÓN</span><h2>Restaurantes</h2><p>Opciones para distintos gustos, presupuestos y momentos.</p></div>
-<div class="restaurant-list">
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Casa+Marco%2C+Vigo" rel="noopener" target="_blank"><strong>Casa Marco</strong><span>Cocina de producto</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Casa+Vella%2C+Vigo" rel="noopener" target="_blank"><strong>Casa Vella</strong><span>Cocina gallega</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Porto+Santo%2C+Vigo" rel="noopener" target="_blank"><strong>Porto Santo</strong><span>Informal y sabroso</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Detapaencepa%2C+Vigo" rel="noopener" target="_blank"><strong>Detapaencepa</strong><span>Tapas y vinos</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Casa+Moncho%2C+Vigo" rel="noopener" target="_blank"><strong>Casa Moncho</strong><span>Tradición</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Casa+Nisio%2C+Vigo" rel="noopener" target="_blank"><strong>Casa Nisio</strong><span>Marisco y cocina gallega</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Rokuseki%2C+Vigo" rel="noopener" target="_blank"><strong>Rokuseki</strong><span>Japonés</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Nikko+Espacio+Gastronomico%2C+Vigo" rel="noopener" target="_blank"><strong>Nikko</strong><span>Experiencia gastronómica</span><em>Ruta</em></a>
-<a href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Maruja+Limon%2C+Vigo" rel="noopener" target="_blank"><strong>Maruja Limón</strong><span>Alta cocina</span><em>Ruta</em></a>
-</div>
-</section>
-<section class="section events-section" id="agenda">
-<div class="section-heading"><span class="eyebrow">VIGO EN DIRECTO</span><h2>Fiestas, festivales y conciertos</h2><p>Una selección de celebraciones y planes destacados. Consulta siempre la programación oficial antes de desplazarte, porque las fechas y horarios pueden cambiar.</p></div>
-<div class="events-grid">
-<a class="event-card event-reconquista" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">⚔</span><small>MARZO · ANUAL</small><h3>Reconquista de Vigo</h3><p>El Casco Vello revive la historia de la ciudad con mercado, música, gastronomía y ambiente de época.</p><em>Agenda oficial</em></a>
-<a class="event-card event-marisquino" href="https://omarisquino.com/" rel="noopener" target="_blank"><span class="event-icon">★</span><small>AGOSTO · ANUAL</small><h3>O Marisquiño</h3><p>Festival urbano de deporte, música y cultura junto al mar.</p><em>Web oficial</em></a>
-<a class="event-card event-castrelos" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">♫</span><small>VERANO</small><h3>Conciertos de Castrelos</h3><p>Grandes actuaciones al aire libre en el auditorio de Castrelos.</p><em>Consultar programación</em></a>
-<a class="event-card event-bouzas" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">✦</span><small>JULIO · ANUAL</small><h3>Fiestas de Bouzas</h3><p>Tradición marinera, actividades populares y fuegos artificiales frente a la ría.</p><em>Agenda oficial</em></a>
-<a class="event-card event-nadal" href="https://hoxe.vigo.org/" rel="noopener" target="_blank"><span class="event-icon">❄</span><small>NOVIEMBRE–ENERO</small><h3>Navidad de Vigo</h3><p>Iluminación, mercados y actividades en distintos puntos de la ciudad.</p><em>Consultar agenda</em></a>
-<a class="event-card event-agenda" href="https://hoxe.vigo.org/axenda/?lang=cas" rel="noopener" target="_blank"><span class="event-icon">▦</span><small>TODO EL AÑO</small><h3>Agenda oficial de Vigo</h3><p>Exposiciones, teatro, música, actividades familiares y eventos de última hora.</p><em>Ver agenda completa</em></a>
-</div>
-<p class="update-note">Las fechas son orientativas para celebraciones anuales. Confirma siempre la programación oficial.</p>
-</section><section class="section section--tint" id="servicios">
-<div class="section-heading"><span class="eyebrow">CERCA DEL APARTAMENTO</span><h2>Servicios útiles</h2><p>Accesos directos a las opciones más próximas o recomendadas.</p></div>
-<div class="service-grid">
-<a class="service-card service-card--featured" href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Sole+Mio+Brunch%2C+Vigo" rel="noopener" target="_blank"><span>☕</span><div><strong>Sole Mío Brunch</strong><small>Cafetería bonita y cercana</small></div><em>Ver ruta</em></a>
-<a class="service-card" href="https://www.google.com/maps/search/?api=1&amp;query=supermercado+cerca+de+Calle+Barcelona+80%2C+36205+Vigo" rel="noopener" target="_blank"><span>🛒</span><div><strong>Supermercado</strong><small>Mostrar el más cercano</small></div><em>Abrir mapa</em></a>
-<a class="service-card" href="https://www.google.com/maps/search/?api=1&amp;query=farmacia+Camiño+do+Regueiro+Vigo" rel="noopener" target="_blank"><span>＋</span><div><strong>Farmacia · Regueiro</strong><small>Opción cercana</small></div><em>Abrir mapa</em></a>
-<a class="service-card" href="https://www.google.com/maps/search/?api=1&amp;query=farmacia+Gran+Via+Vigo+cerca+de+Calle+Barcelona+80" rel="noopener" target="_blank"><span>＋</span><div><strong>Farmacia · Gran Vía</strong><small>Opción cercana</small></div><em>Abrir mapa</em></a>
-<a class="service-card" href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Hospital+Ribera+Povisa%2C+Vigo" rel="noopener" target="_blank"><span>✚</span><div><strong>Hospital Povisa</strong><small>Atención sanitaria próxima</small></div><em>Ver ruta</em></a>
-<a class="service-card" href="parking.html"><span> P </span><div><strong>Aparcamiento</strong><small>Gratis, ORA y parking cubierto</small></div><em>Ver guía</em></a>
-<a class="service-card" href="https://www.google.com/maps/search/?api=1&amp;query=parada+taxi+Povisa+Barcelona+Vigo" rel="noopener" target="_blank"><span>🚕</span><div><strong>Taxi Povisa–Barcelona</strong><small>Parada cercana</small></div><em>Abrir mapa</em></a>
-<a class="service-card" href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Estacion+Vigo+Urzaiz" rel="noopener" target="_blank"><span>🚆</span><div><strong>Vigo–Urzáiz</strong><small>Tren y estación intermodal</small></div><em>Ver ruta</em></a>
-<a class="service-card" href="https://www.google.com/maps/dir/?api=1&amp;origin=Calle+Barcelona+80%2C+36205+Vigo&amp;destination=Aeropuerto+de+Vigo" rel="noopener" target="_blank"><span>✈</span><div><strong>Aeropuerto de Vigo</strong><small>Ruta en coche</small></div><em>Ver ruta</em></a>
-<a class="service-card" href="tel:112"><span>!</span><div><strong>Emergencias</strong><small>Teléfono 112</small></div><em>Llamar</em></a>
-</div>
-</section>
-<section class="section checkout" id="checkout">
-<div class="section-heading"><span class="eyebrow">ANTES DE MARCHAR</span><h2>Check-out · 12:00</h2><p>Gracias por ayudarnos a preparar el apartamento para los siguientes huéspedes.</p></div>
-<div class="checkout-list"><label><input type="checkbox"/> Comprueba que no olvidas objetos personales</label><label><input type="checkbox"/> Apaga las luces</label><label><input type="checkbox"/> Cierra puertas y ventanas</label><label><input type="checkbox"/> Deja las llaves según las instrucciones recibidas</label></div>
-</section>
-<section class="section experience" id="experiencia">
-<img alt="Salón del apartamento" decoding="async" loading="lazy" src="assets/living.jpeg"/>
-<div><span class="eyebrow">GRACIAS POR TU VISITA</span><h2>¿Te ha gustado la estancia?</h2><p>Tu valoración ayuda a futuros huéspedes y a seguir mejorando.</p>
-<a class="button button--gold" href="https://www.airbnb.es/rooms/54171518?unique_share_id=ff06a61d-fff5-4d9a-a8b7-592999700194&amp;viralityEntryPoint=1&amp;s=76" rel="noopener" target="_blank">Valorar mi estancia en Airbnb</a>
-<a class="text-link" href="https://www.airbnb.es/rooms/54171518?unique_share_id=ff06a61d-fff5-4d9a-a8b7-592999700194&amp;viralityEntryPoint=1&amp;s=76" rel="noopener" target="_blank">Ver el anuncio</a>
-</div>
-</section>
-</main>
-<a aria-label="Contactar por WhatsApp" class="whatsapp-float" href="https://wa.me/34695709630" rel="noopener" target="_blank">WA</a>
-<button class="install-button" hidden="" id="installBtn">Instalar guía</button>
-<footer><img alt="B80" decoding="async" loading="lazy" src="assets/logo-b80-mark.png"/><p>Barcelona_80_Urban_Stay · Vigo</p><div><a href="tel:+34695709630">695 709 630</a><a href="https://wa.me/34695709630" rel="noopener" target="_blank">WhatsApp</a></div></footer>
-<script src="locales.js?v=4.0"></script><script src="app.js?v=4.0"></script>
-<div aria-live="polite" class="toast" id="toast" role="status"></div>
-<script src="analytics-config.js"></script>
-<script src="analytics.js"></script>
-</body>
-</html>
+<div data-view="home"><section class="hero"><img class="hero-photo" alt="Apartamento"><div class="hero-content"><span class="eyebrow">URBAN STAY GUIDE · VIGO</span><img class="hero-logo property-logo" alt="Logo"><h1 data-i18n="welcome"></h1><p data-i18n="subtitle"></p><a class="btn gold" href="#parking" data-route="parking">🚗 <span data-i18n="parkingTitle"></span></a></div></section><section class="section"><span class="eyebrow" data-i18n="quick"></span><h2 class="property-name"></h2><div class="quick-grid"><article class="card quick-card"><span data-i18n="checkin"></span><strong id="checkin"></strong></article><article class="card quick-card"><span data-i18n="checkout"></span><strong id="checkout"></strong></article><article class="card quick-card"><span data-i18n="languages"></span><strong>ES · EN · FR · DE · IT · PT · NL</strong></article></div><div class="module-grid"><a class="card module-card" href="#parking" data-route="parking"><div class="icon">🚗</div><h3 data-i18n="nav_parking"></h3><p data-i18n="parkingIntro"></p></a><a class="card module-card" href="#discover" data-route="discover"><div class="icon">🍽️</div><h3 data-i18n="nav_discover"></h3><p data-i18n="placeholder"></p></a><a class="card module-card" href="#events" data-route="events"><div class="icon">🎉</div><h3 data-i18n="nav_events"></h3><p data-i18n="placeholder"></p></a></div></section></div>
+<div data-view="parking" class="hidden parking-wrap"><section class="section"><span class="eyebrow">SMART PARKING</span><h2 data-i18n="parkingTitle"></h2><p class="lead" data-i18n="parkingIntro"></p><div class="parking-grid">
+<article class="card zone-card"><div class="zone-map"><svg viewBox="0 0 600 340" role="img" aria-label="Zona gratuita As Travesas con nombres de calles"><rect width="600" height="340" fill="#edf0e9"/>
+<g stroke="#fff" stroke-width="22" fill="none" stroke-linecap="round"><path d="M-20 48 L620 48"/><path d="M12 292 L620 238"/><path d="M105 -20 L155 360"/><path d="M285 -20 L300 360"/><path d="M445 -20 L485 360"/><path d="M-20 145 L620 128"/></g>
+<g stroke="#c7d1c9" stroke-width="2" fill="none"><path d="M-20 48 L620 48"/><path d="M12 292 L620 238"/><path d="M105 -20 L155 360"/><path d="M285 -20 L300 360"/><path d="M445 -20 L485 360"/><path d="M-20 145 L620 128"/></g>
+<path d="M60 72 C170 38 430 45 535 100 C582 126 560 247 474 284 C355 334 130 306 70 239 C26 191 18 105 60 72Z" fill="rgba(46,155,100,.25)" stroke="#2e9b64" stroke-width="5"/>
+<g fill="#51616a" font-family="Arial, sans-serif" font-size="14" font-weight="700"><text x="240" y="37">Av. da Gran Vía</text><text x="18" y="137">Rúa de Zaragoza</text><text x="345" y="119">Rúa das Lilas</text><text x="248" y="278" transform="rotate(-5 248 278)">Rúa Conde</text><text x="386" y="265" transform="rotate(-5 386 265)">Baixada á Ponte Nova</text><text x="120" y="190" transform="rotate(82 120 190)">Rúa do Carme</text><text x="292" y="185" transform="rotate(88 292 185)">Rúa de Zamora</text><text x="468" y="180" transform="rotate(84 468 180)">Rúa de Barcelona</text></g>
+<g><circle cx="300" cy="165" r="20" fill="#06283f" stroke="#d7a43b" stroke-width="5"/><path d="M290 165 L300 155 L310 165 V178 H292 V165Z" fill="white"/><text x="300" y="210" text-anchor="middle" fill="#06283f" font-family="Arial" font-size="13" font-weight="800">AS TRAVESAS</text></g>
+<rect x="17" y="296" width="220" height="30" rx="15" fill="white" opacity=".92"/><text x="127" y="316" text-anchor="middle" fill="#2e9b64" font-family="Arial" font-size="13" font-weight="800">ZONA GRATUITA 1 · ≤ 5 MIN</text>
+</svg></div><div class="zone-body"><h3 data-i18n="free1"></h3><p data-i18n="freeDesc"></p><div class="badges"><span class="badge" data-i18n="walk"></span><span class="badge" data-i18n="verified"></span></div><div class="parking-actions"><a class="btn navy" id="route1" target="_blank" rel="noopener" data-i18n="navigate"></a></div></div></article>
+<article class="card zone-card"><div class="zone-map"><svg viewBox="0 0 600 340" role="img" aria-label="Zona gratuita Barcelona y Camiño do Regueiro con nombres de calles"><rect width="600" height="340" fill="#edf0e9"/>
+<g stroke="#fff" stroke-width="22" fill="none" stroke-linecap="round"><path d="M-20 54 L620 252"/><path d="M-20 274 L620 84"/><path d="M70 -20 L165 360"/><path d="M325 -20 L355 360"/><path d="M520 -20 L420 360"/><path d="M-20 160 L620 190"/></g>
+<g stroke="#c7d1c9" stroke-width="2" fill="none"><path d="M-20 54 L620 252"/><path d="M-20 274 L620 84"/><path d="M70 -20 L165 360"/><path d="M325 -20 L355 360"/><path d="M520 -20 L420 360"/><path d="M-20 160 L620 190"/></g>
+<path d="M72 78 C160 31 419 32 522 94 C579 129 548 252 456 295 C342 347 156 301 75 226 C25 180 28 106 72 78Z" fill="rgba(46,155,100,.25)" stroke="#2e9b64" stroke-width="5"/>
+<g fill="#51616a" font-family="Arial, sans-serif" font-size="14" font-weight="700"><text x="26" y="150" transform="rotate(17 26 150)">Av. da Hispanidade</text><text x="185" y="205" transform="rotate(17 185 205)">Rúa de Barcelona</text><text x="53" y="288" transform="rotate(-16 53 288)">Rúa Sevilla</text><text x="330" y="250" transform="rotate(-16 330 250)">Rúa Valencia</text><text x="358" y="104" transform="rotate(17 358 104)">Rúa Illas Baleares</text><text x="475" y="169" transform="rotate(-73 475 169)">Av. da Gran Vía</text><text x="116" y="188" transform="rotate(76 116 188)">Camiño do Regueiro</text><text x="434" y="309" transform="rotate(-16 434 309)">Camiño de Rioboo</text></g>
+<g><circle cx="320" cy="166" r="20" fill="#06283f" stroke="#d7a43b" stroke-width="5"/><path d="M310 166 L320 156 L330 166 V179 H312 V166Z" fill="white"/><text x="320" y="211" text-anchor="middle" fill="#06283f" font-family="Arial" font-size="13" font-weight="800">BARCELONA · REGUEIRO</text></g>
+<rect x="345" y="296" width="238" height="30" rx="15" fill="white" opacity=".92"/><text x="464" y="316" text-anchor="middle" fill="#2e9b64" font-family="Arial" font-size="13" font-weight="800">ZONA GRATUITA 2 · ≤ 5 MIN</text>
+</svg></div><div class="zone-body"><h3 data-i18n="free2"></h3><p data-i18n="freeDesc"></p><div class="badges"><span class="badge" data-i18n="walk"></span><span class="badge" data-i18n="verified"></span></div><div class="parking-actions"><a class="btn navy" id="route2" target="_blank" rel="noopener" data-i18n="navigate"></a></div></div></article></div>
+<div class="parking-extra"><article class="card extra-card"><div class="icon">🔵</div><h3 data-i18n="ora"></h3><p data-i18n="oraDesc"></p><a class="btn outline" href="https://www.telpark.com/es/" target="_blank" rel="noopener" data-i18n="telpark"></a></article><article class="card extra-card orange"><div class="icon">🅿️</div><h3 data-i18n="covered"></h3><p data-i18n="coveredDesc"></p><a class="btn outline" id="coveredMap" target="_blank" rel="noopener" data-i18n="maps"></a></article><article class="card extra-card gold"><div class="icon">📱</div><h3 data-i18n="apps"></h3><p data-i18n="appsText"></p><a class="btn outline" id="arrivalMap" target="_blank" rel="noopener" data-i18n="maps"></a></article></div><div class="tip"><h3 data-i18n="tip"></h3><p data-i18n="tipText"></p></div><p style="margin-top:24px"><a href="#" class="btn outline" data-route="home" data-i18n="back"></a></p></section></div>
+<div data-view="homeinfo" class="hidden"><section class="section placeholder"><div><span class="eyebrow">FOUNDATION</span><h2 data-i18n="homeinfoTitle"></h2><p class="lead" data-i18n="placeholder"></p></div></section></div>
+<div data-view="discover" class="hidden"><section class="section placeholder"><div><span class="eyebrow">FOUNDATION</span><h2 data-i18n="discoverTitle"></h2><p class="lead" data-i18n="placeholder"></p></div></section></div>
+<div data-view="events" class="hidden"><section class="section placeholder"><div><span class="eyebrow">FOUNDATION</span><h2 data-i18n="eventsTitle"></h2><p class="lead" data-i18n="placeholder"></p></div></section></div>
+<div data-view="services" class="hidden"><section class="section placeholder"><div><span class="eyebrow">FOUNDATION</span><h2 data-i18n="servicesTitle"></h2><p class="lead" data-i18n="placeholder"></p></div></section></div>
+<div data-view="checkout" class="hidden"><section class="section placeholder"><div><span class="eyebrow">FOUNDATION</span><h2 data-i18n="checkoutTitle"></h2><p class="lead" data-i18n="placeholder"></p></div></section></div>
+</main><footer class="footer"><strong class="property-name"></strong><br>Urban Stay Guide · Vigo</footer><div class="status" data-i18n="status"></div><script src="locales.js"></script><script src="config.js"></script><script src="app.js"></script></body></html>
