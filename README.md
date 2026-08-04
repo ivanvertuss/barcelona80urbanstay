@@ -1,15 +1,9 @@
-# Urban Stay Guide Foundation 1.1 · Barcelona 80 Urban Stay
+# Barcelona 80 Urban Stay · 3.0 RC2 Revisión final
 
-Esta es una base de validación, no una sustitución definitiva de la web publicada.
+- Plano de aparcamiento ampliado y con calles reales.
+- Logo de portada centrado y sin recortes.
+- Traducciones, restaurantes, rutas, agenda y servicios conservados.
+- Caché independiente RC2.
 
-## Incluye
-- Código común para Barcelona y Zamora.
-- Aparcamiento integrado en la misma aplicación (sin parking.html).
-- 7 idiomas globales.
-- Caché exclusiva: urban-stay-foundation-barcelona-1.1.0.
-- Configuración propia de dominio, marca, imágenes y Plausible.
 
-## Prueba
-Abrir index.html. Cambiar idioma y entrar en Aparcamiento.
-
-- Planos Smart Parking actualizados con nombres reales de calles.
+RC3: Aparcamiento dividido en dos mapas independientes, uno por zona gratuita.
