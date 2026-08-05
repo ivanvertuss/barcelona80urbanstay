@@ -1,1 +1,20 @@
-{"name": "Barcelona 80 Urban Stay", "short_name": "B80", "start_url": "./", "display": "standalone", "background_color": "#f7f3ec", "theme_color": "#06283f", "icons": [{"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"}]}
+{
+  "name": "Barcelona 80 Urban Stay",
+  "short_name": "Barcelona 80",
+  "description": "Guía digital oficial para huéspedes de Barcelona 80 Urban Stay en Vigo.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#082f4f",
+  "theme_color": "#082f4f",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/logo-b80-mark.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "id": "./"
+}
