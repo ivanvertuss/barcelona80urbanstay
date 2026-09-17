@@ -30,18 +30,18 @@ window.Z89_DATA={
     {icon:'⚓',title:'Día en las Cíes',text:'Puerto, barco, sendero y playa de Rodas.',stops:['Estación Marítima','Islas Cíes']}
   ],
   events:[
-    {type:'Fiesta',date:'Verano 2026',title:'Vigo en Festas · Castrelos',text:'La gran programación estival de Vigo en el auditorio al aire libre de Castrelos.',url:'https://hoxe.vigo.org/axenda/?idciclo=7&lang=cas'},
-    {type:'Concierto',date:'7 agosto 2026',title:'Abraham Mateo',text:'Concierto en el Auditorio de Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Ópera',date:'9 agosto 2026',title:'Nabucco',text:'Ópera al aire libre en el Auditorio de Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Concierto',date:'11 agosto 2026',title:'The Corrs',text:'Concierto en el Auditorio de Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Concierto',date:'14 agosto 2026',title:'Viva Suecia',text:'Concierto en el Auditorio de Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Concierto',date:'15 agosto 2026',title:'Iván Ferreiro',text:'Concierto en el Auditorio de Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Festival',date:'16 agosto 2026',title:'Fnac Live',text:'Jornada de conciertos en Castrelos.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Música',date:'14 agosto 2026',title:'Final Concurso Internacional de Piano',text:'Gran final en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
+    {type:'Exposición',date:'Hasta 20 septiembre 2026',title:'Laxeiro · As viñetas que non foron ao prelo',text:'Exposición dedicada a la faceta gráfica de Laxeiro dentro de la agenda cultural de Vigo.',url:'https://hoxe.vigo.org/'},
+    {type:'Exposición',date:'Hasta 11 octubre 2026',title:'MARCO · Alejandra Icaza “Circus”',text:'Exposición de Alejandra Icaza en el Museo MARCO de Vigo.',url:'https://hoxe.vigo.org/'},
+    {type:'Exposición',date:'Hasta 30 noviembre 2026',title:'Vigo, un Mar de Corais',text:'Propuesta cultural incluida en la agenda oficial de la ciudad durante el otoño de 2026.',url:'https://hoxe.vigo.org/'},
+    {type:'Familiar',date:'3 octubre 2026',title:'CantaJuego · Yo quiero ser',text:'Espectáculo familiar en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
+    {type:'Comedia',date:'9–11 octubre 2026',title:'Juan Dávila · El Palacio del Pecado',text:'Espectáculo de comedia en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/evento/juandavila/'},
+    {type:'Concierto',date:'18 octubre 2026',title:'António Zambujo · Oração ao Tempo',text:'Concierto en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
     {type:'Concierto',date:'23 octubre 2026',title:'Kiko Veneno',text:'Concierto en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
-    {type:'Concierto',date:'30 octubre 2026',title:'Fito & Fitipaldis',text:'Concierto en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
-    {type:'Fiesta tradicional',date:'21–29 marzo 2026',title:'A Reconquista de Vigo',text:'El Casco Vello revive la expulsión de las tropas napoleónicas con mercado y recreaciones históricas.',url:'https://hoxe.vigo.org/axenda/?lang=cas'},
-    {type:'Fiesta',date:'Noviembre–enero',title:'Navidad de Vigo',text:'Iluminación, mercadillos, atracciones y actividades por el centro de la ciudad.',url:'https://hoxe.vigo.org/axenda/?lang=cas'}
+    {type:'Concierto',date:'30 octubre 2026',title:'Fito & Fitipaldis',text:'Aullidos Tour · Teatros y Auditorios, en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/evento/fito-fitipaldis/'},
+    {type:'Ópera',date:'31 octubre 2026',title:'Madama Butterfly',text:'Ópera en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/programacion-conciertos-vigo-entradas/'},
+    {type:'Danza',date:'7–8 noviembre 2026',title:'Vigo Dance Festival',text:'Segunda edición del festival de danza, con actuaciones en el Auditorio Mar de Vigo.',url:'https://auditoriomardevigo.com/evento/vidancefestival-2/'},
+    {type:'Concierto',date:'4 diciembre 2026',title:'Reality · Por Si Muero Mañana Tour',text:'Concierto en Fábrica de Chocolate Club, Vigo.',url:'https://www.ticketmaster.es/event/reality-entradas/129824570'},
+    {type:'Fiesta',date:'Noviembre 2026–enero 2027',title:'Navidad de Vigo',text:'Iluminación, mercadillos, atracciones y actividades por el centro de la ciudad.',url:'https://hoxe.vigo.org/'}
   ],
   gallery:['living-renovated.jpeg','kitchen.jpeg','room-1.jpeg','room-2.jpeg','room-3.jpeg','room-4.jpeg','room-5.jpeg','room-6.jpeg','room-7.jpeg','bath-1.jpeg','bath-2.jpeg','bath-3.jpeg','bath-4.jpeg','wellness.jpeg']
 };
